@@ -1,0 +1,6 @@
+agent/.env
+agent/data/*.db
+agent/data/*.db-*
+**/__pycache__/
+*.pyc
+Catalist_AI_Intern_Build_Test_Data.zip

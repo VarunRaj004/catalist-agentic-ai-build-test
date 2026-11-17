@@ -1,0 +1,103 @@
+{
+  "note": "10 self-authored questions with ground truth checked by reading the transcripts directly. Teams chosen (ES2005, TS3005, IS1004) do NOT appear in the official data_raw/questions.json, to avoid any appearance of reverse-engineering the held-back official answers.",
+  "questions": [
+    {
+      "id": "C01",
+      "team": "ES2005",
+      "question": "Team ES2005 considered solar power as an energy source and ended up with something else. What did they choose instead, and why was solar power rejected?",
+      "expected_answer": "They rejected solar power because the remote would have to sit outside in sunlight and there isn't always sunlight; they chose a rechargeable battery instead.",
+      "expected_citations": [
+        {"meeting_id": "ES2005c", "quote": "solar power will w also not be a good idea"},
+        {"meeting_id": "ES2005c", "quote": "I think we should a rechargeable battery will be a good idea"}
+      ]
+    },
+    {
+      "id": "C02",
+      "team": "ES2005",
+      "question": "Team ES2005 voted between a TFT screen and speech recognition in their second meeting. Which did they choose, and did they still plan to include it by their third meeting?",
+      "expected_answer": "They voted for speech recognition over TFT in meeting b, and in meeting c they confirmed they were still going with speech recognition.",
+      "expected_citations": [
+        {"meeting_id": "ES2005b", "quote": "Who wants T_F_T_? No-one does. Excellent, so we'll go with speech recognition, yeah?"},
+        {"meeting_id": "ES2005c", "quote": "I think we're definitely going for the speech recognition"}
+      ]
+    },
+    {
+      "id": "C03",
+      "team": "ES2005",
+      "question": "What material feel did Team ES2005 settle on for the remote's casing, and in which meeting was that decided?",
+      "expected_answer": "They settled on a spongy, latex-rubber feel for the casing, decided in their third meeting (c).",
+      "expected_citations": [
+        {"meeting_id": "ES2005c", "quote": "I guess we decided on material, right? So that that spongy latex rubber everything feel"}
+      ]
+    },
+    {
+      "id": "C04",
+      "team": "ES2005",
+      "question": "Team ES2005's target manufacturing cost was fixed early on. What was that figure, and what interim figure came in over budget in the final meeting before they cut cost?",
+      "expected_answer": "The target, set in meeting a, was twelve Euros fifty; in the final meeting an interim costing (even without the scroll buttons) came in at fourteen point six Euros, over budget, before they flattened the shape to cut cost.",
+      "expected_citations": [
+        {"meeting_id": "ES2005a", "quote": "remember we're trying to make it for twelve Euros fifty"},
+        {"meeting_id": "ES2005d", "quote": "minus the extra scroll buttons, uh it's gonna cost us fourteen point six Euros"}
+      ]
+    },
+    {
+      "id": "C05",
+      "team": "TS3005",
+      "question": "Team TS3005 debated whether to keep speech recognition in their final design. Who first proposed dropping it, and was it kept or dropped in the end?",
+      "expected_answer": "Speaker D first proposed scrapping speech recognition (referred to as the 'sample speaker') to save cost, and the team confirmed near the end of their final meeting that speech recognition was dropped.",
+      "expected_citations": [
+        {"meeting_id": "TS3005d", "quote": "I think we should scrap the sample speaker. It's four pri it four units."},
+        {"meeting_id": "TS3005d", "quote": "we we dropped the speech recognition together with the speaker"}
+      ]
+    },
+    {
+      "id": "C06",
+      "team": "TS3005",
+      "question": "Team TS3005 considered titanium for the remote's case material. What did they choose instead, and why was titanium rejected?",
+      "expected_answer": "They chose rubber instead of titanium because titanium was considered a very expensive material, while rubber was cheaper, easy to colour, and durable.",
+      "expected_citations": [
+        {"meeting_id": "TS3005c", "quote": "titanium was also an option. But uh it's a very expensive material."}
+      ]
+    },
+    {
+      "id": "C07",
+      "team": "TS3005",
+      "question": "Team TS3005 discussed which age group to target, younger or elderly users. Which group did they ultimately focus the design for?",
+      "expected_answer": "They targeted younger people, as confirmed explicitly in their final meeting.",
+      "expected_citations": [
+        {"meeting_id": "TS3005d", "quote": "Remote control mainly be sold to younger people."},
+        {"meeting_id": "TS3005d", "quote": "we designed it for young people especially, didn't we?"}
+      ]
+    },
+    {
+      "id": "C08",
+      "team": "TS3005",
+      "question": "Team TS3005's finance figures set a production-cost ceiling. What was that ceiling, and were they above or below it at one point in their final meeting before cutting features?",
+      "expected_answer": "The ceiling was twelve Euro fifty, set in meeting a; in the final meeting, before cutting features, a member said they couldn't get down to twelve and a half.",
+      "expected_citations": [
+        {"meeting_id": "TS3005a", "quote": "production cost will be twelve Euro fifty max"},
+        {"meeting_id": "TS3005d", "quote": "I don't think we can ever make to a twelve and half"}
+      ]
+    },
+    {
+      "id": "C09",
+      "team": "IS1004",
+      "question": "Team IS1004 debated whether to include an LCD screen and speech recognition. Who proposed dropping both for budget reasons, and what was confirmed at the start of their last meeting?",
+      "expected_answer": "Speaker A argued in meeting b that the budget wouldn't allow both an LCD screen and automatic speech recognition; at the start of the final meeting the team recapped the decision as no LCD and no speech recognition.",
+      "expected_citations": [
+        {"meeting_id": "IS1004b", "quote": "it's not possible to go s to go to L_C_D_ and also to go to automatic speech recognition technologies"},
+        {"meeting_id": "IS1004d", "quote": "No L_C_D_, no speech recognition technology, okay"}
+      ]
+    },
+    {
+      "id": "C10",
+      "team": "IS1004",
+      "question": "Team IS1004 found themselves over budget in their final meeting. What material swap did they use to close most of the gap, and how close did that get them to the target?",
+      "expected_answer": "They decided to make the casing plastic instead of rubber, which got them to roughly on-budget, off by about ten cents.",
+      "expected_citations": [
+        {"meeting_id": "IS1004d", "quote": "Okay so we are over budget."},
+        {"meeting_id": "IS1004d", "quote": "Make it plastic instead of rubber. And then we're basically o on budget except for you know ten cents."}
+      ]
+    }
+  ]
+}
